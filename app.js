@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const el = React.createElement(
   "div",
   {
@@ -5,7 +8,7 @@ const el = React.createElement(
   },
   [
     React.createElement("div", { id: "child1" }, [
-      React.createElement("h2", { id: "h2" }, "child h1"),
+      React.createElement("h2", { id: "h2" }, "child h1wwwwww"),
       React.createElement("h2", { id: "h3" }, "child h2"),
     ]),
     React.createElement("div", { id: "child2" }, [
